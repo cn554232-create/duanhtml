@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bài 00: Tổng Hợp HTML</title>
+  </head>
+  <body>
+    <h1>- Bài 01: Các Công Cụ Tiện Ích Hỗ Trợ</h1>
+    <p>
+      1: Prettier - code formatter: setting -> Tìm: default formatter ->
+      prettier - code formatter -> none -> prettier - code formatter <br />
+      Tìm: format on save -> kích vào format on save <br />
+      Tìm: auto save -> onfocuschange( đổi thành afterdelay và đổi thành số 5 ->
+      tìm wait -> đổi thành 3 -> tìm full reload -> tích vào ô)
+    </p>
+    <p>2: Material icon theme: icon biểu tượng (tìm kiếm trên chrom)</p>
+
+    <p>3: image preview</p>
+
+    <p>4: color highlight</p>
+
+    <p>5: auto rename tag</p>
+
+    <p>6: live server</p>
+
+    <p>7: live server preview</p>
+
+    <p>8: code spell checker: kiểm tra chính tả</p>
+
+    <p>9: html tag wrap</p>
+
+    <p>10: html to css autocompletion</p>
+
+    <p>11: indent rainbow</p>
+
+    <hr />
+    <h1>Bài 07: Thẻ body - Thẻ heading h1 -> h6</h1>
+    <hr />
+    <h1>Bài 09: Thẻ br và hr</h1>
+    <p>
+      Thẻ br: Xuống dòng cho đoạn văn nhưng vẫn giữ được ngữ nghĩa cho đoạn văn
+    </p>
+    <p>Thẻ hr: Tạo đường kẻ ngang ngăn cách trên trang</p>
+    <hr />
+    <h1>Bài 10: Thẻ b, i, u</h1>
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet consectetur adipisicing elit.
+      <i>Suscipit</i> tempore inventore quia <u>voluptatibus</u> quis minus
+      iusto voluptas
+      <u
+        ><i><b>omnis aliquam</b></i></u
+      >
+      asperiores.
+    </p>
+    <h4>
+      <p>
+        Thẻ b: bold - in đậm (Dùng <strong class="texhl">strong</strong> thay
+        thế thể hiện nội dung quan trọng)
+      </p>
+      <p>
+        thẻ i: italic - in nghiêng (Dùng <strong class="texhl">em</strong> thay
+        thế để nhấn mạnh nội dung)
+      </p>
+    </h4>
+    <hr />
+    <h1>Bài 11: Thẻ ul, ol</h1>
+    <p>thẻ ul: Danh sách không có thứ tự ( Chấm tròn)</p>
+    <p>Thẻ ol: Danh sách có thứ tự (1,2,3,...)</p>
+    <h3>
+      Thuộc tính của thẻ ol - Thêm thuộc tính bên trong dấu < > của thẻ ol
+    </h3>
+    <p>reversed: đảo ngược số thứ tụ</p>
+    <p>type: kí tự (a,b,c.. I,II,III... A,B,C...)</p>
+    <hr />
+    <h1>Bài 12: Học thẻ a</h1>
+    <a href="https://www.google.com/" target="_blank">Click vào e đi thím</a>
+    <p>Dấu #: trở về đầu trang</p>
+    <p>Nếu để trống thì tải lại trang</p>
+    <p>
+      Thuộc Tính: <br />
+      - taget= _self : Mở tại trang hiện tại <br />
+      - taget= _blank : Mở trang sang tab mới <br />
+      - Liên kết tới sđt: <strong class="telhl">tel</strong> <br />
+      vd: <a href="0787667886" target="_blank">0787667886</a> <br />
+      - Liên kết tới email: <strong class="mailhl">mailto</strong> <br />
+      vd:
+      <a href="mailto:cn554232@gmail.com" target="_blank">Gửi mail cho e nhé</a>
+      <br />
+      <a
+        href="mailto:nguyencaocong1@gmail.com?cc=nguyencaocong2@gmail.com,khohangsanpham@gmail.com&subject=cứu e với a công ơi&bcc=ncn.shoponl@gmail.com&body=công ơi cứu e e ko hiểu gì"
+        target="_blank"
+        >gửi gmail cho công</a
+      >
+      <br />
+      - Subject: chủ đề của thư <br />
+      - body: là phần nội dung của email - Dấu , là dấu phân cách khi bạn mướn
+      gửi cho nhiều người <br />
+      -Dấu ?: lầ dấu phân cách giữa phần mailto và tham số <br />
+      - Dấu &: là dấu phân cách giữa các tham số <br />
+    </p>
+    <hr />
+    <h1>Bài 13: Học thẻ img</h1>
+    <p>Hình ảnh ví dụ</p>
+    <img src="./img/hoc-vien-1.jpg" alt="ảnh girl đẹp" />
+    <p>
+      - Thuộc tính: width và height (rộng và cao) <br />
+      - Chỉ nên cắt một chiều rộng hoặc cao nếu không sẽ bị méo ảnh
+    </p>
+    <hr />
+    <h1>Bài 14: Học về đường dẫn tương đối và đường dẫn tuyệt đối</h1>
+    <p>
+      Link luôn cố định thì dùng đường dẫn tuyệt đối <br />
+      còn trong tương lai có khả năng thay đổi thì dùng tương đối
+    </p>
+    <hr />
+    <h1>Bài 15: ôn tập tạo trang web</h1>
+    <a href="/index.html">Home</a>
+    <a href="./contact.html">contact me</a>
+    <a href="./my-skill.html">My skill</a>
+    <h2>Welcome to my website</h2>
+    <h3>Nguyễn Trần Như Nhông</h3>
+    <p>Creative Director and Designer - Giám đốc sáng tạo và thiết kế</p>
+    <a href="/contact.html"
+      ><img src="./img/anh-bia.png" alt="ảnh bìa" width="500"
+    /></a>
+    <hr />
+    <h1>Bài 16: Học Git và GitHub</h1>
+  </body>
+</html>
